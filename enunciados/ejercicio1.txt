@@ -1,0 +1,1 @@
+Implementar un XSD que valide el documento ordenadores.xml (en la carpeta ejercicio1)
