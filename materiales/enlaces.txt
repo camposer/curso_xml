@@ -1,0 +1,8 @@
+Tutorial de XML de W3Schools
+http://www.w3schools.com/xml/default.ASP
+
+Validador XML de w3c
+http://validator.w3.org/check
+
+Tutorial de XSD de W3Schools
+http://www.w3schools.com/Schema/
