@@ -52,23 +52,24 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="ordenador">
 	<xsl:choose>
 		<xsl:when test="persona/altura &gt; 170">
-			<tr>
-				<td><xsl:value-of select="@id"/></td>
-				<td><xsl:value-of select="nombre"/></td>
-				<td><xsl:value-of select="serial"/></td>
-				<td><xsl:apply-templates select="persona"/></td>
+			<tr class="diferente">
+				<xsl:call-template name="ordenadorTemplate"/>
 			</tr>
 		</xsl:when>
 		<xsl:otherwise>
-			<tr class="diferente">
-				<td><xsl:value-of select="@id"/></td>
-				<td><xsl:value-of select="nombre"/></td>
-				<td><xsl:value-of select="serial"/></td>
-				<td><xsl:apply-templates select="persona"/></td>
+			<tr>
+				<xsl:call-template name="ordenadorTemplate"/>
 			</tr>
 		</xsl:otherwise>
 	</xsl:choose>
 		
+</xsl:template>
+
+<xsl:template name="ordenadorTemplate">
+	<td><xsl:value-of select="@id"/></td>
+	<td><xsl:value-of select="nombre"/></td>
+	<td><xsl:value-of select="serial"/></td>
+	<td><xsl:apply-templates select="persona"/></td>
 </xsl:template>
 
 <xsl:template match="persona">
