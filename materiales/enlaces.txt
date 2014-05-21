@@ -1,3 +1,6 @@
+Tutoriales
+==========
+
 Tutorial de XML de W3Schools
 http://www.w3schools.com/xml/
 
@@ -7,11 +10,32 @@ http://www.w3schools.com/Schema/
 Tutorial de XSL de W3Schools
 http://www.w3schools.com/xsl/
 
-XSLT con Java
-http://docs.oracle.com/javase/tutorial/jaxp/xslt/transformingXML.html
+
+Herramientas
+============
 
 Validador XML (DTD) de w3c
 http://validator.w3.org/check
 
 Validador XML (XSD) 
 http://www.utilities-online.info/xsdvalidation/
+
+
+Ejemplos
+========
+
+XSLT con Java
+http://docs.oracle.com/javase/tutorial/jaxp/xslt/transformingXML.html
+
+XSLT y PDF utilizando XSL-FO
+http://www.ibm.com/developerworks/library/x-xslfo2app/
+http://www.ibm.com/developerworks/xml/library/x-xslfo/index.html
+http://www.w3schools.com/xslfo/
+
+Ejemplo de SAX
+http://www.mkyong.com/java/how-to-read-xml-file-in-java-sax-parser/
+
+Ejemplo de DOM
+http://www.mkyong.com/java/how-to-read-xml-file-in-java-dom-parser
+
+
