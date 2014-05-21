@@ -1,9 +1,14 @@
 Tutorial de XML de W3Schools
-http://www.w3schools.com/xml/default.ASP
+http://www.w3schools.com/xml/
 
 Tutorial de XSD de W3Schools
 http://www.w3schools.com/Schema/
 
+Tutorial de XSL de W3Schools
+http://www.w3schools.com/xsl/
+
+XSLT con Java
+http://docs.oracle.com/javase/tutorial/jaxp/xslt/transformingXML.html
 
 Validador XML (DTD) de w3c
 http://validator.w3.org/check
