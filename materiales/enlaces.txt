@@ -10,7 +10,6 @@ http://www.w3schools.com/Schema/
 Tutorial de XSL de W3Schools
 http://www.w3schools.com/xsl/
 
-
 Herramientas
 ============
 
@@ -36,6 +35,9 @@ Ejemplo de SAX
 http://www.mkyong.com/java/how-to-read-xml-file-in-java-sax-parser/
 
 Ejemplo de DOM
-http://www.mkyong.com/java/how-to-read-xml-file-in-java-dom-parser
+(lectura) http://www.mkyong.com/java/how-to-read-xml-file-in-java-dom-parser
+(escritura) http://www.shivasoft.in/blog/java/create-xml-file-using-jaxp-and-transformation-apis/
 
+Tutotial de JAXB
+http://www.vogella.com/tutorials/JAXB/article.html
 

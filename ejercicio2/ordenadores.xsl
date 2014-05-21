@@ -53,19 +53,19 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:choose>
 		<xsl:when test="persona/altura &gt; 170">
 			<tr class="diferente">
-				<xsl:call-template name="ordenadorTemplate"/>
+				<xsl:call-template name="personaTemplate"/>
 			</tr>
 		</xsl:when>
 		<xsl:otherwise>
 			<tr>
-				<xsl:call-template name="ordenadorTemplate"/>
+				<xsl:call-template name="personaTemplate"/>
 			</tr>
 		</xsl:otherwise>
 	</xsl:choose>
 		
 </xsl:template>
 
-<xsl:template name="ordenadorTemplate">
+<xsl:template name="personaTemplate">
 	<td><xsl:value-of select="@id"/></td>
 	<td><xsl:value-of select="nombre"/></td>
 	<td><xsl:value-of select="serial"/></td>
