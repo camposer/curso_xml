@@ -11,10 +11,17 @@ public class Persona {
 	private Integer altura;
 	private List<Ordenador> ordenadores;
 	private List<Coche> coches;
+
+	public Persona(Integer id, String nombre, String apellido, Date fechaNacimiento,
+			Integer altura) {
+		
+		this(id, nombre, apellido, fechaNacimiento, altura, null, null);
+	}
 	
 	public Persona(Integer id, String nombre, String apellido, Date fechaNacimiento,
 			Integer altura, List<Ordenador> ordenadores, List<Coche> coches) {
-		super();
+
+		this.id = id;
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.fechaNacimiento = fechaNacimiento;
