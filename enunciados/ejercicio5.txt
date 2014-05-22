@@ -11,6 +11,6 @@ Tips:
 class Ejercicio5 {
 
 	main() {
-		Persona persona = PersonaReader.leer("xml/persona.xml"); // Lee el documento XML
+		Persona persona = PersonaBinder.leer("xml/persona.xml"); // Lee el documento XML
 	}
 }

@@ -12,6 +12,10 @@ public class Persona {
 	private List<Ordenador> ordenadores;
 	private List<Coche> coches;
 
+	public Persona() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Persona(Integer id, String nombre, String apellido, Date fechaNacimiento,
 			Integer altura) {
 		

@@ -1,4 +1,4 @@
-package dom;
+package dom.ejercicio4;
 
 import java.text.SimpleDateFormat;
 
