@@ -41,3 +41,9 @@ Ejemplo de DOM
 Tutotial de JAXB
 http://www.vogella.com/tutorials/JAXB/article.html
 
+Ejemplo de StAX
+http://www.journaldev.com/1226/java-stax-cursor-based-api-read-xml-example
+
+Ejemplo de Validación con XSD y SAX
+http://tutorials.jenkov.com/java-xml/sax-schema-validation.html
+

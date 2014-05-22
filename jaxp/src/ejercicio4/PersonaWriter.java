@@ -1,4 +1,4 @@
-package dom.ejercicio4;
+package ejercicio4;
 
 import java.io.FileOutputStream;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package dom.ejercicio3;
+package ejercicio3;
 
 import java.util.List;
 

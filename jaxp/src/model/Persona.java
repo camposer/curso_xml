@@ -13,7 +13,6 @@ public class Persona {
 	private List<Coche> coches;
 
 	public Persona() {
-		// TODO Auto-generated constructor stub
 	}
 	
 	public Persona(Integer id, String nombre, String apellido, Date fechaNacimiento,
