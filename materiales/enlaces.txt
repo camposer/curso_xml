@@ -10,6 +10,15 @@ http://www.w3schools.com/Schema/
 Tutorial de XSL de W3Schools
 http://www.w3schools.com/xsl/
 
+Tutorial de StAX de Oracle
+http://docs.oracle.com/javase/tutorial/jaxp/stax/example.html
+
+Tutorial de JAXB
+https://jaxb.java.net/tutorial/
+
+Guía de XMLTools de Eclipse
+http://www.eclipse.org/webtools/initial-contribution/IBM/evalGuides/XMLToolsEval.html
+
 Herramientas
 ============
 
@@ -46,4 +55,20 @@ http://www.journaldev.com/1226/java-stax-cursor-based-api-read-xml-example
 
 Ejemplo de Validación con XSD y SAX
 http://tutorials.jenkov.com/java-xml/sax-schema-validation.html
+
+
+Documentación
+=============
+
+API Java DOM:
+http://docs.oracle.com/javase/7/docs/api/org/w3c/dom/package-summary.html
+
+API Java SAX:
+http://docs.oracle.com/javase/7/docs/api/org/xml/sax/package-summary.html
+
+API Java StAX:
+http://docs.oracle.com/javaee/5/api/javax/xml/stream/package-summary.html
+
+
+
 

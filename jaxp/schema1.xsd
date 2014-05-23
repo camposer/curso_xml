@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:complexType name="persona">
+    <xs:sequence>
+      <xs:element name="altura" type="xs:int" minOccurs="0"/>
+      <xs:element name="apellido" type="xs:string" minOccurs="0"/>
+      <xs:element name="coches" type="coche" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="fechaNacimiento" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="id" type="xs:int" minOccurs="0"/>
+      <xs:element name="nombre" type="xs:string" minOccurs="0"/>
+      <xs:element name="ordenadores" type="ordenador" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="coche">
+    <xs:sequence>
+      <xs:element name="marca" type="xs:string" minOccurs="0"/>
+      <xs:element name="matricula" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ordenador">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" minOccurs="0"/>
+      <xs:element name="nombre" type="xs:string" minOccurs="0"/>
+      <xs:element name="persona" type="persona" minOccurs="0"/>
+      <xs:element name="serial" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
